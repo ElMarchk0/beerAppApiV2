@@ -10,5 +10,6 @@ app.use(express.json());
 app.use(cors({ origin: "*" }));
 app.listen(PORT, () => {
   connect();
+  console.log("Api running on port 3001");
   routes(app);
 });

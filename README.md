@@ -1,6 +1,10 @@
-# Craft Beer API Backend
+# Craft Beer API
 
-This api is built with mongodb. To deploy it locally you need a mongodb account.
+The beers featured in the production version application are brewed in and produced in Victoria, Canada. This API handles both the selection of beer and the reviews.
+
+### Building locally
+
+This api is built with mongodb. To build and deploy it locally you need a mongodb account. This backend is not necessary to run the [frontend application](https://github.com/ElMarchk0/beerApiV2) locally.
 
 #### Sample .env file
 

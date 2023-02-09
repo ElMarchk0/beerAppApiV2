@@ -24,5 +24,11 @@ Build production server locally
 yarn
 yarn build
 yarn start
+```
 
+Docker build
+
+```
+docker-compose build
+docker-compose up -d
 ```

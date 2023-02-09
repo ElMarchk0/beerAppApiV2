@@ -17,14 +17,14 @@ PORT = 3001
 
 Run development server with nodemon.
 
-```
+```bash
 yarn
 yarn dev
 ```
 
 Build production server locally
 
-```
+```bash
 yarn
 yarn build
 yarn start
@@ -32,7 +32,7 @@ yarn start
 
 Docker build
 
-```
+```bash
 docker-compose build
 docker-compose up -d
 ```

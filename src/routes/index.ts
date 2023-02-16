@@ -11,6 +11,9 @@ import {
 } from "../controllers/beer.controller";
 
 export default function (app: Express) {
+  app.get("/", (req: Request, res: Response) => {
+    res.send("API is live");
+  });
   app.get("/reviews", (req: Request, res: Response) => {
     getAllReviewsHandler(req, res);
   });

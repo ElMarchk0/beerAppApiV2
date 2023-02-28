@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon --config nodemon.json src/index.ts",
     "build": "tsc -p .",
-    "start": "NODE_PATH=./build node build/src/index.js"
+    "start": "NODE_PATH=./build node build/index.js"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.2",
